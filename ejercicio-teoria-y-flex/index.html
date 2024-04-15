@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <style>
+        span {
+            font-weight: 700;
+        }
+
+        .dice {
+            display: flex;
+            border: 1px solid black;
+            width: 300px;
+        }
+
+        .dice>div {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Preguntas</h1>
+        <p>Contesta las preguntas en el mismo HTML</p>
+    </div>
+    <div class="container">
+        <h2>Dada esta regla CSS</h2>
+        <img src="cssrule.png" alt="">
+        <ol>
+            <li>¿Qué tipo de selector CSS es? <span>Respuesta: Es un selector de...<del>id</del> </span></li>
+            <li>¿Cuantas propiedades CSS establece este selector? <span>Respuesta:</span></li>
+            <li>¿Cuál es el valor de la segunda propiedad? <span>Respuesta:</span></li>
+        </ol>
+        <h2>Analiza el siguiente tag img</h2>
+        <img src="tagimg.png" alt="">
+        <ol>
+            <li>¿Cuantos atributos tiene este tag? <span>Respuesta:</span></li>
+            <li>¿Cuál es el valor del atributo <i>src</i>? <span>Respuesta:</span></li>
+            <li>Imagina que tenemos la siguiente reglas CSS. ¿Crees que el tamaño de la imagen sería de 1000px? ¿Por
+                qué? <img src="big-image.png" alt=""> </li>
+            <p><span>Respuesta:</span></p>
+        </ol>
+        <h2>¿Cuál es el valor de la propiedad <i>font-weight</i> de este botón?</h2>
+        <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+        <p><span>Respuesta: </span></p>
+    </div>
+    <div class="container">
+        <h2>Crea un dado que muestre la cara del "dos" usando flex adecuadamente.</h2>
+        <p> Pista: solo necesitas aplicar
+            propiedaes CSS de forma
+            adecuada al selector .dice para conseguirlo</p>
+        <div class="dice">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
