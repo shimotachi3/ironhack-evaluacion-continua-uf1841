@@ -15,6 +15,11 @@
             display: flex;
             border: 1px solid black;
             width: 300px;
+            height: 300px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 60px;
+
         }
 
         .dice>div {
@@ -23,7 +28,9 @@
             border-radius: 50%;
             background-color: black;
         }
+
     </style>
+
 
 </head>
 
@@ -36,22 +43,22 @@
         <h2>Dada esta regla CSS</h2>
         <img src="cssrule.png" alt="">
         <ol>
-            <li>¿Qué tipo de selector CSS es? <span>Respuesta: Es un selector de...<del>id</del> </span></li>
-            <li>¿Cuantas propiedades CSS establece este selector? <span>Respuesta:</span></li>
-            <li>¿Cuál es el valor de la segunda propiedad? <span>Respuesta:</span></li>
+            <li>¿Qué tipo de selector CSS es? <span>Respuesta: Es un selector de classe</span></li>
+            <li>¿Cuantas propiedades CSS establece este selector? <span>Respuesta: 2</span></li>
+            <li>¿Cuál es el valor de la segunda propiedad? <span>Respuesta: 18px</span></li>
         </ol>
         <h2>Analiza el siguiente tag img</h2>
         <img src="tagimg.png" alt="">
         <ol>
-            <li>¿Cuantos atributos tiene este tag? <span>Respuesta:</span></li>
-            <li>¿Cuál es el valor del atributo <i>src</i>? <span>Respuesta:</span></li>
+            <li>¿Cuantos atributos tiene este tag? <span>Respuesta: 3</span></li>
+            <li>¿Cuál es el valor del atributo <i>src</i>? <span>Respuesta: /w3images/team2.jpg</span></li>
             <li>Imagina que tenemos la siguiente reglas CSS. ¿Crees que el tamaño de la imagen sería de 1000px? ¿Por
                 qué? <img src="big-image.png" alt=""> </li>
-            <p><span>Respuesta:</span></p>
+            <p><span>Respuesta: Sí dado que le estamos indicando qué medida tiene que tener la imagen y alt=john solo sirve a modo de descripcion de la imagen(no hace nada vaya)</span></p>
         </ol>
         <h2>¿Cuál es el valor de la propiedad <i>font-weight</i> de este botón?</h2>
         <button type="button" onclick="alert('Hello world!')">Click Me!</button>
-        <p><span>Respuesta: </span></p>
+        <p><span>Respuesta: var(--pico-font-weight)</span></p>
     </div>
     <div class="container">
         <h2>Crea un dado que muestre la cara del "dos" usando flex adecuadamente.</h2>
